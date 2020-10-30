@@ -5,7 +5,7 @@ The application can be used in a docker container
 ```bash
 git clone https://github.com/jvin042/simple-api.git
 cd simple-api
-docker-compose up -d
+docker-compose up --build -d
 ```
 
 ## Usage
