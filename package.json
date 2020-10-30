@@ -1,0 +1,37 @@
+{
+  "name": "simple-api",
+  "version": "1.0.0",
+  "description": "An example of a simple api using Node.js and Express.js.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvin042/simple-api.git"
+  },
+  "keywords": [
+    "api",
+    "docker",
+    "docker-compose",
+    "nodejs",
+    "expressjs",
+    "eslint"
+  ],
+  "author": "jvin042",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/jvin042/simple-api/issues"
+  },
+  "homepage": "https://github.com/jvin042/simple-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.6"
+  }
+}
